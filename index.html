@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(41, 38, 38);
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 30px 10%;
+    opacity: 86%;
+}
+.logo img{
+    height: 90px;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 18px;
+    padding: 0px 4px;
+}
+a,button{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav li a:hover{
+    color: #047794;
+    font-weight: 700;
+}
+button{
+    background-color: #0088a9;
+    padding: 9px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: #047794;
+
+}
+footer{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(41, 38, 38);
+    justify-content: center;
+}
+footer li{
+        list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+footer li a{
+    color: white;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+.content{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.item{
+    border: 2px solid black;
+
+}
+#empty{
+margin: 230px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="file:///home/chronos/u-0e14c9e750d7c69ba2b00ea5611cd2cdd5a2665f/MyFiles/NOX/pic2.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button>
+            <a href="#">Submit Now</a>
+        </button>
+    </header>
+
+    <div class="content">
+        <img src="file:///home/chronos/u-0e14c9e750d7c69ba2b00ea5611cd2cdd5a2665f/MyFiles/NOX/pic3.png" alt="pic" class="item" id="first">
+        <div id="empty">
+            
+        </div>
+        <img src="file:///home/chronos/u-0e14c9e750d7c69ba2b00ea5611cd2cdd5a2665f/MyFiles/NOX/pic2%20(1).png" alt="pic" class="item" id="second">
+        <img src="file:///home/chronos/u-0e14c9e750d7c69ba2b00ea5611cd2cdd5a2665f/MyFiles/NOX/pic1-1.png" alt="pic" class="third item" id="third">
+        <img src="file:///home/chronos/u-0e14c9e750d7c69ba2b00ea5611cd2cdd5a2665f/MyFiles/NOX/pic1-2.png" alt="pic" class="third item" id="fourth">
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="/Navigation Bar/navbar1.html">Go Top</a></li>
+            <li><a href="#">Read More</a></li>
+            <li><a href="#">Email Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
