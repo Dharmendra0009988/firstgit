@@ -14,6 +14,12 @@
 //     document.getElementById("box6").style.animation = "rotation 4s infinite liner"+`${keyFrames}`; 
 //     document.getElementById("box6").style = `${keyFrames}`;
 // }
+Var quotes= ['find me,
+catch me,
+I am hear,
+Where are you looking,
+Can/'t you see']
+Var data =Math.floor(Math.random()* (5))
 function box1() {
     document.getElementById("box6").style.backgroundColor = "green";
     document.getElementById("box4").style.backgroundColor = "violet";
@@ -27,7 +33,7 @@ function box1() {
     document.getElementById("box3").style.color = "purple";
     document.getElementById("box1").style.color = "orange";
     document.getElementById("box2").style.color = "white";
-    document.getElementById("box6").innerHTML ="Hey! I am Here...";
+    document.getElementById("box6").innerHTML = quotes[data] ;
     document.getElementById("box1").innerHTML = "";
     document.getElementById("box2").innerHTML = "";
     document.getElementById("box3").innerHTML = "";
